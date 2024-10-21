@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+    align-items: center;     /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    min-height: 100vh;       /* ให้มีความสูงขั้นต่ำเป็น 100% ของหน้าจอ */
+}
+
+
+.grid {
+    width: 100%;             /* กำหนดให้ขนาดของ grid ปรับตามหน้าจอ */
+    max-width: 1400px;       /* จำกัดขนาดสูงสุดของ grid */
+    padding: 20px;           /* เพิ่ม padding เพื่อเว้นระยะห่างภายใน */
+}

@@ -1,0 +1,82 @@
+.details-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.details {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 1380px; /* Set a maximum width */
+    margin: 0 auto; /* Center the details container */
+}
+
+.booking-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    margin-left: 65px;
+}
+
+.booking-img-container {
+    /* Adjust these values to change the size of the image containers */
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.booking-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* object-fit: cover ensures the image fills the container without distortion */
+}
+
+.more-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Add this to your AllH.css or a separate CSS file */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.modal-content img {
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}

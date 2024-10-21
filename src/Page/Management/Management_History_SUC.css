@@ -1,0 +1,17 @@
+.home-MN {
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+}
+.ColorB{
+    background-color: rgb(213, 216, 223);
+}
+.image-container-pp {
+    width: 750px; /* ตั้งค่าความกว้างที่ต้องการ */
+    height: 220px; /* ตั้งค่าความสูงที่ต้องการ */
+    overflow: hidden; /* เพื่อซ่อนส่วนที่เกิน */
+}  
+.image-container-pp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ทำให้ภาพครอบคลุมเต็มพื้นที่โดยไม่เสียสัดส่วน */
+}  
